@@ -1,0 +1,4 @@
+use stuartdb1;
+SELECT *
+FROM vehicles
+WHERE VIN = '3GNAXHEV5JL172986';
