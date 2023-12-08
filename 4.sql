@@ -1,5 +1,5 @@
 use stuartdb1;
 SELECT dealerships.*
 FROM dealerships
-JOIN vehicles ON dealerships.dealership_id = vehicles.dealership_id
-WHERE vehicles.VIN = 'WBA3B3C51DF532823';
+JOIN inventory ON dealerships.dealership_id = inventory.dealership_id
+WHERE inventory.VIN = '3GNAXHEV5JL172986';
